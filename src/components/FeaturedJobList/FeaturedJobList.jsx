@@ -1,5 +1,7 @@
 import React from 'react';
 import './FeaturedJobList.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocationDot, faSackDollar } from '@fortawesome/free-solid-svg-icons';
 
 const FeaturedJobList = ({ featuredJob }) => {
     console.log(featuredJob);
@@ -22,8 +24,13 @@ const FeaturedJobList = ({ featuredJob }) => {
                             <button className=' btn btn-outline btn-info'>Full Time</button>
                         </div>
                         <div className='flex  justify-center mt-2 items-center gap-10'>
-                            <p className='text-xs font-mono'>{location}</p>
-                            <p className='text-xs font-mono'>Salary:{salary}</p>
+                            <p className='text-xs font-mono'>
+                                <FontAwesomeIcon icon={faLocationDot} className='px-2' />
+                                {location}</p>
+                            <p className='text-xs font-mono'>
+                                <FontAwesomeIcon icon={faSackDollar} className='px-2' />
+                                Salary:{salary}
+                            </p>
                         </div>
 
                         <div className="card-actions">
