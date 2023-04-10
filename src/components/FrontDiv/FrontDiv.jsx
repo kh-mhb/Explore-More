@@ -2,6 +2,7 @@ import React from 'react';
 import './FrontDiv.css'
 import banner from './banner.png';
 import JobCateGoryList from '../JobCategoryList/JobCateGoryList';
+import FeaturedJobs from '../FeaturedJobs/FeaturedJobs';
 
 const FrontDiv = () => {
     return (
@@ -21,6 +22,9 @@ const FrontDiv = () => {
             </div>
             <div>
                 <JobCateGoryList></JobCateGoryList>
+            </div>
+            <div>
+                <FeaturedJobs></FeaturedJobs>
             </div>
         </div>
 

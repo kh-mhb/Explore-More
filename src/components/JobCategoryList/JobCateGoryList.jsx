@@ -4,7 +4,7 @@ import JobCard from '../JobCard/JobCard';
 
 const JobCateGoryList = () => {
     let [jobs, setJobs] = useState([]);
-    console.log(jobs);
+    // console.log(jobs);
     useEffect(() => {
 
         fetch('data2.json')
