@@ -38,7 +38,7 @@ const FeaturedJobs = () => {
 
             </div>
             <div className='text-center'>
-                <button className='btn my-6 w-40'>Show All</button>
+                <button className='btn btn-warning my-6 w-40'>Show All</button>
             </div>
 
 
