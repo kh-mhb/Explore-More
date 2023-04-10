@@ -8,11 +8,11 @@ const FeaturedJobs = () => {
     // console.log(featuredJobs);
     useEffect(() => {
 
-        fetch('data3.json')
+        fetch('data.json')
             .then(res => res.json())
             .then(data => setFeaturedJobs(data));
 
-    }, [])
+    }, []);
 
 
     return (

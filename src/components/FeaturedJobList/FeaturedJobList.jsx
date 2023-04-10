@@ -4,8 +4,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faSackDollar } from '@fortawesome/free-solid-svg-icons';
 
 const FeaturedJobList = ({ featuredJob }) => {
-    console.log(featuredJob);
-    let { companyName, educationalRequirement, email,
+    let trialFunction = id => {
+        console.log(id);
+    }
+    // console.log(featuredJob);
+
+    let { companyName, educationalRequirement, email, id,
         experience, jobDescription, jobResponsibility, jobTitle, location, logo,
         phone, salary
     } = featuredJob;
@@ -16,6 +20,7 @@ const FeaturedJobList = ({ featuredJob }) => {
                     <figure className=" pt-20 job-list-photo">
                         <img src={logo} alt="Shoes" className="rounded-xl " />
                     </figure>
+
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">{jobTitle}</h2>
                         <p>{companyName}</p>
@@ -34,7 +39,7 @@ const FeaturedJobList = ({ featuredJob }) => {
                         </div>
 
                         <div className="card-actions">
-                            <button className="btn btn-ghost mt-1">View Details</button>
+                            <button onClick={() => trialFunction(id)} className="btn btn-ghost mt-1">View Details</button>
                         </div>
                     </div>
                 </div>
