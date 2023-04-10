@@ -1,5 +1,5 @@
 import React from 'react';
-import './ApplidJobs.css';
+import './AppliedJobs.css';
 
 const AppliedJobs = () => {
     return (

@@ -1,0 +1,26 @@
+[
+    {
+        "index": 1,
+        "picture": "https://previews.123rf.com/images/ionutparvu/ionutparvu1612/ionutparvu161201068/67602581-accounts-stamp-sign-text-word-logo-blue.jpg",
+        "tittle": " Account & Finance",
+        "space": "300 Jobs Available"
+    },
+    {
+        "index": 2,
+        "picture": "https://www.shutterstock.com/image-vector/logo-smart-industry-innovation-260nw-1504694594.jpg",
+        "tittle": " Creative Design",
+        "space": "100 Jobs Available"
+    },
+    {
+        "index": 3,
+        "picture": "https://png.pngtree.com/png-clipart/20200727/original/pngtree-trade-market-logo-design-template-finance-logo-with-arrow-png-image_5137886.jpg",
+        "tittle": "Marketing & Sales",
+        "space": "150 Jobs Available"
+    },
+    {
+        "index": 4,
+        "picture": "https://img.freepik.com/free-vector/gradient-mechanical-engineering-logo-template_23-2150147439.jpg",
+        "tittle": "Engineering Job",
+        "space": "224 Jobs Available"
+    }
+]
