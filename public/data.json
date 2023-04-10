@@ -2,6 +2,7 @@
     {
         "logo": "https://www.logodesignteam.com/blog/wp-content/uploads/2017/07/Google_Logo.jpg",
         "jobTitle": "Software Engineer",
+        "id": 1,
         "companyName": "Google",
         "location": "Mountain View, CA",
         "salary": "$120,000 - $160,000 per year",
@@ -15,6 +16,7 @@
     {
         "logo": "https://logowik.com/content/uploads/images/tesla.jpg",
         "jobTitle": "Hardware Engineer",
+        "id": 2,
         "companyName": "Tesla",
         "location": "Palo Alto, CA",
         "salary": "$130,000 - $170,000 per year",
@@ -28,6 +30,7 @@
     {
         "logo": "https://1000logos.net/wp-content/uploads/2016/11/Facebook-Logo-font.jpg",
         "jobTitle": "Data Scientist",
+        "id": 3,
         "companyName": "Facebook",
         "location": "Menlo Park, CA",
         "salary": "$140,000 - $180,000 per year",
@@ -41,6 +44,7 @@
     {
         "logo": "https://img.etimg.com/thumb/msid-59738992,width-640,resizemode-4,imgsize-25499/amazon.jpg",
         "jobTitle": "Product Manager",
+        "id": 4,
         "companyName": "Amazon",
         "location": "Seattle, WA",
         "salary": "$150,000 - $190,000 per year",
@@ -54,6 +58,7 @@
     {
         "logo": "https://www.vectorlogo.zone/logos/apple/apple-ar21.png",
         "jobTitle": "iOS Developer",
+        "id": 5,
         "companyName": "Apple",
         "location": "Cupertino, CA",
         "salary": "$130,000 - $170,000 per year",
@@ -67,6 +72,7 @@
     {
         "logo": "https://logowik.com/content/uploads/images/750_netflix.jpg",
         "jobTitle": "UI/UX Designer",
+        "id": 6,
         "companyName": "Netflix",
         "location": "Los Gatos, CA",
         "salary": "$120,000 - $160,000 per year",
