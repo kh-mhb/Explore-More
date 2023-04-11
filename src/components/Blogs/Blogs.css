@@ -1,0 +1,43 @@
+.daiso-accordion {
+    display: flex;
+    flex-direction: column;
+}
+
+.daiso-accordion-header {
+    background-color: #f1f1f1;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+.daiso-accordion-header.active,
+.daiso-accordion-header:hover {
+    background-color: #ddd;
+}
+
+.daiso-accordion-content {
+    padding: 0 18px;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+}
+
+.daiso-accordion-content p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.daiso-accordion-header.active+.daiso-accordion-content {
+    max-height: 500px;
+}
+
+.root-div {
+    max-width: 1200px;
+    margin: 0 auto;
+}
