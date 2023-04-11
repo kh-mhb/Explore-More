@@ -38,17 +38,17 @@ const Statistics = () => {
 
         },
         {
-            name: "Assignmetn 6",
+            name: "Assignment 6",
             marks: 49,
 
         },
         {
-            name: "Assignmnet 7",
+            name: "Assignment 7",
             marks: 55,
 
         },
         {
-            name: "Assignmnet 8",
+            name: "Assignment 8",
             marks: 60,
 
         }

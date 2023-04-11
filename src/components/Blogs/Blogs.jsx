@@ -3,7 +3,7 @@ import './Blogs.css';
 
 const Blogs = () => {
     return (
-        <div className='root-div '>
+        <div className='root-div  py-5 px-2 mb-5'>
 
             <h3 className='text-center font-serif text-2xl font-medium  mb-5 contrast-200  '>Lets Learn More About React</h3>
 
@@ -26,6 +26,9 @@ const Blogs = () => {
                 <div className="daiso-accordion-content">
                     <p>In React, a custom hook is a JavaScript function that starts with the prefix "use" and allows you to share logic between different components. Custom hooks provide a way to abstract complex logic and reuse it in multiple components, allowing you to keep your code organized and easy to maintain.</p>
                 </div>
+            </div>
+            <div className='bg-slate-600'>
+                <h3 className='text-center'> <span className='text-gray-50 font-extrabold '>---</span></h3>
             </div>
         </div>
 
