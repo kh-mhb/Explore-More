@@ -5,7 +5,7 @@ const JobCard = ({ job }) => {
     let { picture, tittle, space } = job;
     return (
 
-        <div className=" bg-cyan-50 rounded-3xl p-4 ms-5 me-5 mb-3 ">
+        <div className="max-w-sm bg-cyan-50 rounded-3xl p-4 ms-5 me-5 ">
             <div className="flex items-center justify-start  h-30">
                 <img className="h-9  rounded-full" src={picture} alt="Logo" />
             </div>
