@@ -5,17 +5,11 @@ import errorImg from './notFound.jpg'
 const ErrorPage = () => {
     return (
         <div>
-            <div>
-                <div className='error-img' >
-                    <img className='ir-img' src={errorImg} alt="404 Not Found" />
-                </div>
-                <div style={{ textAlign: 'center' }}>
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '90vh' }}>
 
-                    <h1>Page Not Found</h1>
-                    <p>The page you are looking for cannot be found.</p>
-                    <p>Please check the URL and try again. If you believe this is an error, please contact the website administrator.</p>
-                    <Link to="/home" style={{ color: 'blue' }}>Back to Home</Link>
-                </div>
+                <img className='error-image' src="https://img.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_114360-5529.jpg?w=2000" alt="404 Not Found" style={{ width: '40%' }} />
+
+
             </div>
         </div>
     );

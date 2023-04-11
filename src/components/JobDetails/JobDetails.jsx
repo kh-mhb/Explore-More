@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import SharedBanner from "../SharedBanner/SharedBanner";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDollarSign, faSignsPost, faPhoneFlip, faMailReply, faLocation } from '@fortawesome/free-solid-svg-icons'
 
 const JobDetails = () => {
     const { id } = useParams();
@@ -38,16 +40,20 @@ const JobDetails = () => {
 
                     <div className="font-bold p-2 mb-3 border-b-2 border-slate-950">Job Details</div>
 
-                    <h1 className="font-mono"><span className="font-semibold ">Salary:</span> {jobDetails?.salary} </h1>
-                    <h1 className="font-mono"><span className="font-semibold ">Job Tittle:</span> {jobDetails?.jobTitle}</h1>
+                    <h1 className="font-mono"><span className="font-semibold "> <FontAwesomeIcon className="me-1" icon={faDollarSign} />
+                        Salary:</span> {jobDetails?.salary} </h1>
+                    <h1 className="font-mono"><span className="font-semibold "><FontAwesomeIcon className="me-1" icon={faSignsPost} />
+                        Job Tittle:</span> {jobDetails?.jobTitle}</h1>
                     <div>
-                        <h1 className="font-bold px-2 border-b-2 border-slate-950 py-2 mb-4">Contact Information</h1>
+                        <h1 className="font-bold px-2 border-b-2 border-slate-950 py-2 mb-4">
+                            Contact Information</h1>
 
                     </div>
                     <hr />
-                    <h1 className="font-mono"><span className="font-semibold">Phone:</span> {jobDetails?.phone}</h1>
-                    <h1 className="font-mono"><span className="font-semibold">Email:</span>{jobDetails?.email} </h1>
-                    <h1 className="font-mono"><span className="font-semibold">Address:</span> {jobDetails?.location} </h1>
+                    <h1 className="font-mono"><span className="font-semibold"><FontAwesomeIcon className="me-1" icon={faPhoneFlip} />Phone:</span> {jobDetails?.phone}</h1>
+                    <h1 className="font-mono"><span className="font-semibold">  <FontAwesomeIcon className="me-1" icon={faMailReply} />
+                        Email:</span>{jobDetails?.email} </h1>
+                    <h1 className="font-mono"><span className="font-semibold"> <FontAwesomeIcon className="me-1" icon={faLocation} />Address:</span> {jobDetails?.location} </h1>
                     <button className="btn bg-blue-600 hover:bg-blue-800 w-full mt-10"> Apply Now</button>
 
                 </div>

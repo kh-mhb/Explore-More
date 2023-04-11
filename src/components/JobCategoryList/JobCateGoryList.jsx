@@ -7,7 +7,7 @@ const JobCateGoryList = () => {
     // console.log(jobs);
     useEffect(() => {
 
-        fetch('data2.json')
+        fetch('/data2.json')
             .then(res => res.json())
             .then(data => setJobs(data));
 

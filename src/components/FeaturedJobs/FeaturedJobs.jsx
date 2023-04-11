@@ -7,12 +7,12 @@ const FeaturedJobs = () => {
     const [disabled, setDisabled] = useState(false);
     // console.log(featuredJobs);
     useEffect(() => {
-        fetch("data.json")
+        fetch("/data.json")
             .then((res) => res.json())
             .then((data) => setFeaturedJobs(data.slice(0, 4)));
     }, []);
     const handlerToShowAll = () => {
-        fetch("data.json")
+        fetch("/data.json")
             .then((res) => res.json())
             .then((data) => setFeaturedJobs(data));
         setDisabled(true);
