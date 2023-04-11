@@ -22,7 +22,7 @@ const Header = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
-                        {/* <li><Link to='/home'>Home</Link></li> */}
+                        <li><Link to='/home'>Home</Link></li>
                         <li><Link to='/statistics'>Statistics</Link></li>
                         <li><Link to='/applied_jobs' >Applied Jobs</Link></li>
                         <li><Link to='/blog_link' >Blog</Link></li>
@@ -30,7 +30,7 @@ const Header = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn bg-indigo-600">Start Applying</a>
+                    <a className="btn bg-indigo-600  ">Start Applying</a>
                 </div>
             </div>
             {/* header section end here */}

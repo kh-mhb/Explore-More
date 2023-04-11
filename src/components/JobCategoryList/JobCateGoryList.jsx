@@ -14,7 +14,7 @@ const JobCateGoryList = () => {
         1
     }, [])
     return (
-        <div>
+        <div >
             <div className='text-center'>
                 <h3 className='font-semibold mt-3 text-2xl'>Job Category List</h3>
                 <p className='font-thin text-xs mt-1 mb-5'>Explore thousands of job opportunities with all the information you need. Its your future</p>

@@ -24,6 +24,10 @@ const router = createBrowserRouter([
         element: <FrontDiv></FrontDiv>
       },
       {
+        path: '/home',
+        element: <FrontDiv></FrontDiv>
+      },
+      {
         path: '/statistics',
         element: <Statistics></Statistics>
       },
